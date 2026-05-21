@@ -4,7 +4,7 @@
 }
 body{
     width: 98vw;
-    height: 98vh;
+    height: 86vh;
     background-image: url("image.png");
     background-size: 100vw 100vh;
     color: white;
@@ -296,7 +296,11 @@ body{
 }
 
 
-
-
+@media(min-width:315px)
+{
+    .box{
+        height: 280px;
+    }
+}
 
 
